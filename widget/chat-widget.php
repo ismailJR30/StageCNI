@@ -140,7 +140,7 @@
         if (lastBotMessage) {
           lastBotMessage.remove();
         }
-        addMessage('Une erreur est survenue. Vérifiez la configuration de l’API Claude.', 'bot');
+        addMessage('Une erreur est survenue. Vérifiez la configuration d’Ollama.', 'bot');
       });
   });
 })();
